@@ -42,7 +42,6 @@ jobs:
         
         echo 解压缩meta
         unzip -o meta_yacd.zip > /dev/null
-        cd ..
         cd Yacd-meta-gh-pages
         echo yacd特殊处理
         find -name '*.map' | xargs  rm -rf
